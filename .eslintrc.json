@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended", "prettier"],
+  "rules": {
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "jsx-a11y/alt-text": "off",
+    "@typescript-eslint/ban-ts-comment": "off"
+  }
+}
